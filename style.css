@@ -16,6 +16,8 @@
 .main-parent-class {
     display: flex;
     gap: 20px;
+    padding-block: 100px;
+    color: rgb(8, 8, 8);
 
 }
 
@@ -27,6 +29,7 @@
 /* title */
 .list-contract{
     margin-top: 5px;
+    font-size: 35px;
 }
 .span-tage-sec {
     color: rgb(26, 224, 224);
@@ -34,7 +37,7 @@
 }
 
 .lorem-facts {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
     
 }
