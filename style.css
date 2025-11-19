@@ -16,15 +16,16 @@
 .main-parent-class {
     display: flex;
     gap: 20px;
+    
+    
+  
+
+}
+.sec-class-encer{
     padding-block: 100px;
-    color: rgb(8, 8, 8);
-
+    
 }
 
-.iner-colum-sec {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
 /* title */
 .list-contract{
@@ -38,22 +39,30 @@
 
 .lorem-facts {
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 15px;
     
 }
 
 .button-mode {
-    height: 37px;
-    width: 128px;
-    margin-top: 30px;
+    margin-top: 18px;
+    padding:17px ;
     background-color: rgb(11, 231, 158);
+    display: inline-flex;
+    align-items: center ;
+    text-decoration: none;
+    border-radius: 5px ;
+    color: white;
+
 }
 .number-sec{
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    padding:15px ;
 }
 .consentraint-cemio{
-    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 15px ;
 }
 /* wraps */
 .box-size {
@@ -69,8 +78,11 @@
 }
 
 .iner-colum-sec{
-     display: flex;
-    gap: 2px;
+     display: grid;
+     grid-template-columns:repeat(2,1fr);
+    gap: 30px;
+    margin-top: 20px;
+
 
 }
 .iner-colum {
@@ -79,30 +91,49 @@
             
 }
 
-.imges-class {
+.imges-class{
     width: 50%;
-
+    position: absolute;
+    right: 0;
+    padding-left: 30px;
 }
 
 .imges-class img {
     width: 100%;
-    height: 100%;
+    
     object-fit: cover;
+    
+    
 }
 @media (max-width:1023.99px) {
             .iner-colum-sec{
-                display: block;
+                grid-template-columns:repeat(2,1fr);
                
         }
         .main-parent-class{
          flex-direction: column;
         }
-        .imges-class {
-    width: 100%;
-
-}
+       
 .heading-pg{
     width: 100%;
 }
 
 }
+@media (max-width:767.99px) {
+         .imges-class {
+    width: 100%;
+    position: static;
+         }
+
+ .iner-colum-sec {
+    
+     grid-template-columns:repeat(1,1fr);
+    
+    
+}
+.imges-class{
+  
+    padding-left: 0;
+    
+}
+         }
