@@ -17,8 +17,6 @@ body{
 
 .main-parent-class {
     display: flex;
-   
-    width: 100%;
     align-items: end;
     
 
@@ -34,7 +32,7 @@ body{
 
 /* title */
 .list-contract {
-   margin-bottom: 100px;
+   margin-bottom: 30px;
     font-size: 30px;
     font-weight: 500;
    
@@ -47,7 +45,7 @@ body{
 
 .lorem-facts {
     font-size: 12px;
-    margin-top: -79px;
+   
     color: rgba(29, 28, 26, 0.849);
 }
 
@@ -140,9 +138,11 @@ body{
         flex-direction: column;
         align-items: start;
         justify-content: end;
+        gap: 20px;
     }
     .heading-pg{
         width: 100%;
+        padding: 0;
     }
     .imges-class {
         width: 100%;
