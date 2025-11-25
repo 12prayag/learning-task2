@@ -27,6 +27,9 @@ body {
 .sec-class-encer {
     padding-block: 100px;
     background: #ddd6d6d4;
+    display: flex;
+    min-height: 100vh;
+
 
 }
 
@@ -169,6 +172,9 @@ body {
         gap: 20px;
 
     }
+         .main-parent-class {
+             flex-direction: column-reverse;
+         }
 
     .imges-class {
 
