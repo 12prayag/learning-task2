@@ -157,6 +157,9 @@ body {
         position: static;
     }
 
+    .main-parent-class {
+        flex-direction: column-reverse;
+    }
 
 }
 
@@ -172,9 +175,10 @@ body {
         gap: 20px;
 
     }
-         .main-parent-class {
-             flex-direction: column-reverse;
-         }
+
+    .main-parent-class {
+        flex-direction: column-reverse;
+    }
 
     .imges-class {
 
@@ -205,13 +209,22 @@ body {
 
 
 }
+
 @media (max-width:356.99px) {
 
     .iner-colum {
-    background-color: white;
+        background-color: white;
 
-    padding: 32px;
-    display: flex;
-    gap: 30px;
+        padding: 32px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .main-parent-class {
+        flex-direction: column-reverse;
+    }
+
+    .iner-colum {
+        gap: 40px;
     }
 }
